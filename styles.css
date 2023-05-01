@@ -1,0 +1,233 @@
+@font-face{
+	font-family: Roboto-Regular;
+	src: url(./assets/fonts/Roboto/Roboto-Regular.ttf) format('truetype')
+
+}
+@font-face{
+	font-family: Roboto-Bold;
+	src: url(./assets/fonts/Roboto/Roboto-Bold.ttf) format('truetype')
+
+}
+@font-face{
+	font-family: Roboto-Black;
+	src: url(./assets/fonts/Roboto/Roboto-Black.ttf) format('truetype')
+
+}
+
+@font-face{
+	font-family: Roboto-ThinItalic;
+	src: url(./assets/fonts/Roboto/Roboto-ThinItalic.ttf) format('truetype')
+
+}
+
+body{
+	background: #1F2937;
+}
+header{
+	height: 16vh;
+	display: flex;
+	justify-content: space-between;
+}
+footer{
+	height: 5vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+a{
+	font-family: Roboto-Regular;
+	padding-left: 5vh;
+	text-decoration: none;
+	color: #E5E7EB;
+	font-size: 18px;
+}
+a:visited { 
+
+	text-decoration: none; 
+}
+
+.logo-container{
+	display: flex;
+	align-items: center;
+	margin-left: 25vh;
+}
+.logo{
+	font-family: Roboto-Bold;
+	font-weight: 300;
+	font-size: 24px;
+	color: #F9FAF8;
+}
+.links-container{
+	margin-right: 25vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.intro-section{
+	display: flex;
+	height: 400px;
+	align-items: center;
+	justify-content: space-between;
+}
+.intro-section .container-1{
+	width: 400px;
+	height: 200px;
+	margin-left: 25vh;
+}
+.intro-section .container-2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 400px;
+	height: 200px;
+	background-color: grey;
+	margin-right: 25vh;
+}
+.intro-section h1{
+	font-family: Roboto-Bold;
+	font-size: 48px;
+	color: white;
+	margin: 0;
+}
+.intro-section p{
+	font-family: Roboto-Regular;
+	font-size: 18px;
+	color: lightgrey;
+	margin: 0;
+}
+.information-section{
+	background-color: white;
+	display: flex;
+	height: 500px;
+	justify-content: center;
+	align-items: center;
+}
+.information-container{
+	justify-content: column;
+}
+.information-section h1{
+	font-family: Roboto-Bold;
+	font-size: 36px;
+	text-align: center;
+	color: #1F2937;
+}
+.square-container{
+	display: flex;
+	justify-content: space-between;
+}
+.inspiring-section{
+	background-color: #E6E7EB;
+	display: flex;
+	height: 400px;
+}
+.quote-container{
+	margin: 15vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.inspiring-section h2{
+	font-family: Roboto-ThinItalic;
+	font-size: 36px;
+	color: #1F2937;
+	text-align: center;
+}
+.inspiring-section h1{
+	font-family: Roboto-Bold;
+	font-size: 36px;
+	color: #1F2937;
+	text-align: right;
+}
+.contact-section{
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 400px;
+}
+.call-to-action{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 900px;
+	height: 100px;
+	border-radius: 5px;
+	background-color: #3882F6;
+}
+.text-container{
+	margin-left: 25vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.call-to-action h1{
+	font-family: Roboto-Bold;
+	font-size: 24px;
+	color: white;
+	margin: 0;
+}
+.call-to-action p{
+	font-family: Roboto-Regular;
+	font-size: 12px;
+	color: white;
+	margin: 0;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  background-color: transparent;
+  border: 3px solid #3882F6;
+  border-radius: 20px;
+  margin: 2vh;
+}
+
+.subtext {
+  font-family: Roboto-Regular;
+  font-size: 14px;
+  color: gray;
+  margin-top: 155px;
+  text-align: center;
+}
+.placeholder-text{
+  font-family: Roboto-Regular;
+  font-size: 14px;
+  color: gray;
+  text-align: center;
+}
+
+.button-1{
+	width: 150px;
+	height: 50px;
+	margin-top: 10px;
+	font-size: 18px;
+	font-family: Roboto-Regular;
+	font-weight: bold;
+	color: white;
+	background-color: #3882F6;
+	border-radius: 5px;
+	box-shadow: none;
+  	border: none;
+}
+.button-2{
+	margin-right: 25vh;
+	width: 125px;
+	height: 30px;
+	font-size: 18px;
+	font-family: Roboto-Regular;
+	font-weight: bold;
+	color: white;
+	background-color: transparent;
+	border: 1px solid white;
+	border-radius: 5px;
+	box-shadow: none;
+
+}
+button:active{
+	opacity: 0.5;
+}
+
+
+
+
