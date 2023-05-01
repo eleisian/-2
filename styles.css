@@ -13,15 +13,14 @@
 	src: url(./assets/fonts/Roboto/Roboto-Black.ttf) format('truetype')
 
 }
-
 @font-face{
 	font-family: Roboto-ThinItalic;
 	src: url(./assets/fonts/Roboto/Roboto-ThinItalic.ttf) format('truetype')
 
 }
-
 body{
 	background: #1F2937;
+	margin: 0;
 }
 header{
 	height: 16vh;
@@ -29,10 +28,13 @@ header{
 	justify-content: space-between;
 }
 footer{
-	height: 5vh;
+	height: 16vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+footer a{
+	padding-left: 0vh;
 }
 a{
 	font-family: Roboto-Regular;
@@ -118,6 +120,7 @@ a:visited {
 .inspiring-section{
 	background-color: #E6E7EB;
 	display: flex;
+	justify-content: center;
 	height: 400px;
 }
 .quote-container{
@@ -127,17 +130,18 @@ a:visited {
 	align-items: center;
 
 }
-.inspiring-section h2{
-	font-family: Roboto-ThinItalic;
-	font-size: 36px;
-	color: #1F2937;
-	text-align: center;
-}
 .inspiring-section h1{
 	font-family: Roboto-Bold;
 	font-size: 36px;
 	color: #1F2937;
 	text-align: right;
+	align-self: flex-end	;
+}
+.inspiring-section h2{
+	font-family: Roboto-ThinItalic;
+	font-size: 36px;
+	color: #1F2937;
+	text-align: center;
 }
 .contact-section{
 	background-color: white;
